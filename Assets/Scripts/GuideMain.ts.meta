@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/108a0ead-6db0-4bf4-aa5e-d233aec5f8ec>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1c21f4ee-5936-4b77-a3e2-cf192bc16ad4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1c21f4ee-5936-4b77-a3e2-cf192bc16ad4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7a9bcac6-302b-44c8-b909-e918b24d4e4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7a9bcac6-302b-44c8-b909-e918b24d4e4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f1696791-6597-4146-b156-206d967ab057
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    initialStep: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - initialStep: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color:#60A5FA;\">Guide Controller</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float initialStep = 1 {"hint":"Step shown when the spatial Paris guide begins (1 through 6).", "widget":"slider", "min":1, "max":6, "step":1}'

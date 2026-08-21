@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/59e77a8d-67b3-4df1-975b-c4ff52f1d2fd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2e166de4-d750-4363-8abf-e1e9b4d51008
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2e166de4-d750-4363-8abf-e1e9b4d51008
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a4695ac7-e351-4493-b295-4e4b7e9d9fc7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a4695ac7-e351-4493-b295-4e4b7e9d9fc7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: cb357bc6-3114-44ad-bc5e-f65978b927a3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    nextLabel: false
+    panelHeight: false
+    panelWidth: false
+    photoHeight: false
+    photoWidth: false
+    previousLabel: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 48.000000
+      panelHeight: !<float> 56.000000
+      photoWidth: !<float> 44.000000
+      photoHeight: !<float> 25.000000
+      previousLabel: Previous
+      nextLabel: Next
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color:#60A5FA;\">Guide Presentation</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Layout"}'
+    - '// @input float panelWidth = 48 {"hint":"Panel width in centimeters at the default 110 cm focal distance.", "widget":"slider", "min":40, "max":52, "step":1}'
+    - '// @input float panelHeight = 56 {"hint":"Panel height in centimeters at the default 110 cm focal distance.", "widget":"slider", "min":50, "max":60, "step":1}'
+    - '// @input float photoWidth = 44 {"hint":"Visible photo width in centimeters.", "widget":"slider", "min":36, "max":48, "step":1}'
+    - '// @input float photoHeight = 25 {"hint":"Visible photo height in centimeters.", "widget":"slider", "min":20, "max":30, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Copy"}'
+    - '// @input string previousLabel = "Previous" {"hint":"Label shown on the back navigation control."}'
+    - '// @input string nextLabel = "Next" {"hint":"Label shown on the forward navigation control."}'
+    - '// @ui {"widget":"group_end"}'
